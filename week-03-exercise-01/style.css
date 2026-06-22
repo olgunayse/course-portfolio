@@ -1,34 +1,33 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: "Georgia", serif;
-  background-color: #f7f5f2;
-  margin: 0;
-  padding: 60px 20px;
+    font-family: Georgia, serif;
+    background-color: #f5f1ee;
+    margin: 0;
+    padding: 60px 20px;
 }
 
 .card {
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 40px;
-  background-color: #ffffff;
-  border: 2px solid #d8cfc4;
-  border-radius: 20px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border: 2px solid #d8b4a0;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
 
 .card h1 {
-  color: #2f4f4f;
-  font-size: 48px;
-  margin-top: 0;
-  margin-bottom: 25px;
+    color: #7a5c61;
+    font-size: 48px;
+    margin-bottom: 25px;
 }
 
 .card p {
-  color: #5a5a5a;
-  font-size: 20px;
-  line-height: 1.7;
-  margin-bottom: 20px;
+    color: #5b5b5b;
+    font-size: 20px;
+    line-height: 1.7;
+    margin-bottom: 20px;
 }
