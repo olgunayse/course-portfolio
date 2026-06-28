@@ -28,7 +28,8 @@ main {
 }
 
 h1 {
-    font-size: 58px;
+    font-size: 48px;
+    white-space: nowrap;
     font-weight: normal;
     color: #8d776d;
     letter-spacing: 2px;
