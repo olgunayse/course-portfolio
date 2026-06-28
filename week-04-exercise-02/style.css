@@ -28,7 +28,7 @@ main {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 58px;
     white-space: nowrap;
     font-weight: normal;
     color: #8d776d;
@@ -103,5 +103,15 @@ main > p {
 @media (min-width: 1024px) {
     .collection-card {
         flex-basis: calc(33.333% - 16px);
+    }
+}
+@media (max-width: 480px) {
+    h1 {
+        font-size: 42px;
+        white-space: normal;
+    }
+
+    main {
+        padding: 30px 20px;
     }
 }
