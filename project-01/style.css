@@ -323,3 +323,11 @@ footer a:hover {
         border-bottom: none;
     }
 }
+.hero-box {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hero-box:hover {
+    transform: scale(1.02);
+    box-shadow: 0 18px 40px rgba(70, 55, 40, 0.1);
+}
