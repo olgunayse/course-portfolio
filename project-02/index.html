@@ -2,14 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Professional portfolio of Ayse Olgundeney, a Computing Applications student interested in web development, information organization, and user-centered technology."
+    >
 
     <title>Ayse Olgundeney | Professional Portfolio</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet"
+    >
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -18,14 +35,33 @@
 
 <header class="site-header">
 
-    <a href="index.html" class="logo">AO</a>
+    <a href="index.html" class="logo" aria-label="Ayse Olgundeney home">
+        AO
+    </a>
 
-    <nav>
+    <nav aria-label="Main navigation">
         <ul class="nav-links">
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li>
+                <a
+                    class="active"
+                    aria-current="page"
+                    href="index.html"
+                >
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="about.html">About</a>
+            </li>
+
+            <li>
+                <a href="projects.html">Projects</a>
+            </li>
+
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
         </ul>
     </nav>
 
@@ -33,93 +69,159 @@
 
 <main>
 
-<section class="hero">
+    <section class="hero">
 
-<div class="hero-content">
+        <div class="hero-content">
 
-<p class="eyebrow">
-Professional Portfolio
-</p>
+            <p class="eyebrow">
+                Professional Portfolio
+            </p>
 
-<h1>
-Ayse Olgundeney
-</h1>
+            <h1>
+                Ayse Olgundeney
+            </h1>
 
-<p class="hero-description">
-Computing Applications student at Texas Tech University with an interest in web development, information organization, and creating clean, user-friendly digital experiences.
-</p>
+            <p class="hero-description">
+                I am a Computing Applications student at Texas Tech University
+                with an interest in web development, information organization,
+                and creating clean, user-friendly digital experiences.
+            </p>
 
-<div class="button-group">
+            <div class="button-group">
 
-<a class="button" href="projects.html">
-View My Projects
-</a>
+                <a class="button" href="projects.html">
+                    View My Projects
+                </a>
 
-<a class="button button-secondary" href="contact.html">
-Contact Me
-</a>
+                <a
+                    class="button button-secondary"
+                    href="contact.html"
+                >
+                    Contact Me
+                </a>
 
-</div>
+            </div>
 
-</div>
+        </div>
 
-</section>
+    </section>
 
-<section class="content-section">
+    <section class="content-section">
 
-<p class="eyebrow">
-Featured Work
-</p>
+        <p class="eyebrow">
+            Featured Work
+        </p>
 
-<h2>
-Building websites that are clean, responsive, and easy to use.
-</h2>
+        <h2>
+            Building websites that are clean, responsive, and easy to use.
+        </h2>
 
-<div class="projects-grid">
+        <div class="projects-grid">
 
-<article class="project-card">
+            <article class="project-card">
 
-<h3>
-Real Estate Comparison Tool
-</h3>
+                <img
+                    src="images/real-estate-comparison-tool.png"
+                    alt="Screenshot of the Real Estate Comparison Tool showing property comparison options"
+                >
 
-<p>
-An interactive website that helps users compare homes using pricing, location, commute, and monthly costs.
-</p>
+                <h3>
+                    Real Estate Comparison Tool
+                </h3>
 
-<a href="projects.html">
-Learn More
-</a>
+                <p>
+                    An interactive website that helps users compare homes
+                    using pricing, location, commute, and estimated monthly
+                    costs.
+                </p>
 
-</article>
+                <div class="project-links">
+                    <a href="projects.html">
+                        Learn More
+                    </a>
 
-<article class="project-card">
+                    <a
+                        href="https://olgunayse.github.io/CMPA-4303-D02-Semester-Project/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Live Site
+                    </a>
+                </div>
 
-<h3>
-European Travel Knowledge Base
-</h3>
+            </article>
 
-<p>
-A connected collection of travel guides built to organize destinations and resources into one searchable website.
-</p>
+            <article class="project-card">
 
-<a href="projects.html">
-Learn More
-</a>
+                <img
+                    src="images/travel-knowledge-base.png"
+                    alt="Screenshot of the European Travel Knowledge Base website"
+                >
 
-</article>
+                <h3>
+                    European Travel Knowledge Base
+                </h3>
 
-</div>
+                <p>
+                    A connected collection of European travel guides that
+                    organizes destinations, images, and resources into one
+                    accessible website.
+                </p>
 
-</section>
+                <div class="project-links">
+                    <a href="projects.html">
+                        Learn More
+                    </a>
+
+                    <a
+                        href="https://olgunayse.github.io/cmpa-knowledge-base/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Live Site
+                    </a>
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+    <section class="content-section">
+
+        <p class="eyebrow">
+            Skills
+        </p>
+
+        <h2>
+            Tools and areas I am continuing to develop.
+        </h2>
+
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Responsive Web Design</li>
+            <li>Git and GitHub</li>
+            <li>Information Organization</li>
+            <li>JavaScript</li>
+            <li>Data Analysis</li>
+            <li>Human-Centered AI</li>
+        </ul>
+
+    </section>
 
 </main>
 
 <footer class="site-footer">
 
-<p>
-© 2026 Ayse Olgundeney. All rights reserved.
-</p>
+    <p>
+        Designed and developed by Ayse Olgundeney.
+    </p>
+
+    <p>
+        &copy; 2026 All rights reserved.
+    </p>
 
 </footer>
 
